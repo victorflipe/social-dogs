@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className='App'>
-      <BrowserRouter basename='/social-dogs'>
+      <BrowserRouter>
         <UserStorage>
           <Header />
           <main className='AppBody'>
